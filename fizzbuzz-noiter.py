@@ -7,7 +7,7 @@ for i in range(1, 100):
   if i % 5 == 0:
     buzz = "buzz"
   if fizz == "" and buzz == "":
-    print i
+    print(i)
   else:
-    print "{}{}".format(fizz, buzz)
+    print("{}{}".format(fizz, buzz))
 
